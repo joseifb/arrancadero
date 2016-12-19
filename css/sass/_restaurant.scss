@@ -1,0 +1,232 @@
+.alt-font {
+	font-family: $body-font-2;
+
+	h1,h2,h3,h4,h5,h6 {
+		font-family: $heading-font-2;
+		letter-spacing: -0.04em;
+	}
+
+	.testimonials .testimonial-text {
+		font-family: $heading-font-2;
+	}
+
+	p,
+	.btn,
+	.navbar-nav > li > a,
+	.dropdown-menu li > a,
+	.opening-hours p,
+	.restaurant-menu .work-item .work-description h3 {
+		font-family: $body-font-2;
+	}
+
+	.subheading,
+	.testimonials .testimonial a,
+	.testimonials .testimonial span {
+		font-style: normal;
+	}
+
+	.underline-link {
+		font-family: $body-font-2;
+	}
+}
+
+
+/*-------------------------------------------------------*/
+/* Restaurant Demo 1
+/*-------------------------------------------------------*/
+
+.parallax-section {
+	padding: 270px 0;
+}
+
+.newsletter {
+	padding: 100px 0;
+	
+	.newsletter-form {
+		width: 60%;
+		display: inline-block;
+		margin-right: 20px;
+	} 
+}
+
+
+/*-------------------------------------------------------*/
+/* Menu
+/*-------------------------------------------------------*/
+
+.menu-list {
+	li {
+		position: relative;
+		margin-bottom: 4px;
+	}
+
+	.menu-title,
+	.menu-price {
+		font-family: $body-font-2;
+		font-size: 16px;
+		color: $text-color;
+		background-color: #fff;
+		letter-spacing: normal;
+	}
+
+	.menu-title {
+		font-weight: normal;
+		padding-right: 5px;
+		display: inline-block;
+		position: relative;
+		z-index: 1;
+	}
+
+	.menu-price {
+		position: absolute;
+		top: 0;
+		right: 0;
+		color: $text-color;
+	}
+
+	.dots {
+		border-bottom: 2px dotted #bfbfbf;
+		display: block;
+		width: 100%;
+		position: absolute;
+		bottom: 16px;
+	}
+}
+
+
+/*-------------------------------------------------------*/
+/* Saying
+/*-------------------------------------------------------*/
+
+.restaurant-saying {
+	.parallax {
+		background-image: url(../img/restaurant/restaurant_saying.jpg);
+	}
+}
+
+
+/*-------------------------------------------------------*/
+/* Opening hours
+/*-------------------------------------------------------*/
+
+.opening-hours {
+
+	.parallax {
+		background-image: url(../img/restaurant/opening_hours.jpg);
+	}
+
+	p {
+		font-family: $heading-font;
+		font-size: 20px;
+		line-height: 38px;
+	}
+}
+
+
+/*-------------------------------------------------------*/
+/* Special
+/*-------------------------------------------------------*/
+
+.special {
+
+	.parallax {
+		background-image: url(../img/restaurant/special.jpg);
+	}
+
+	p {
+		font-family: $heading-font;
+		font-size: 20px;
+		line-height: 38px;
+	}
+
+	.special-price {
+		font-size: 24px;
+		color: #fff;
+	}
+}
+
+
+/*-------------------------------------------------------*/
+/* Menu Grid
+/*-------------------------------------------------------*/
+
+.restaurant-menu {
+	.work-item .work-description h3 {
+		font-size: 16px; 
+		letter-spacing: normal;
+	}
+
+	.work-item .work-description span {
+		font-style: normal;
+		font-size: 16px;
+	}
+}
+
+
+/*-------------------------------------------------------*/
+/* Reservation promo
+/*-------------------------------------------------------*/
+
+.reservation-promo {
+
+	.parallax {
+		background-image: url(../img/restaurant/reservation.jpg);
+	}
+
+	h2 {
+		font-size: 50px;
+	}
+}
+
+
+/*-------------------------------------------------------*/
+/* Reservation
+/*-------------------------------------------------------*/
+
+.underline-link.btn-submit {
+	background-color: transparent;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: 2px solid $main-color;
+	padding: 0;
+}
+
+
+/*-------------------------------------------------------*/
+/* Fresh promo
+/*-------------------------------------------------------*/
+
+.fresh {
+
+	.parallax {
+		background-image: url(../img/restaurant/fresh.jpg);
+	}
+}
+
+
+/*-------------------------------------------------------*/
+/* Restaurant Promo
+/*-------------------------------------------------------*/
+
+.restaurant-promo {
+	.parallax {
+		background-image: url(../img/restaurant/promo.jpg);
+	}
+
+	h3 {
+		font-size: 40px;
+	}
+}
+
+/*-------------------------------------------------------*/
+/* Reservation Page
+/*-------------------------------------------------------*/
+
+.img-box.img-2 {
+	background-image: url(../img/restaurant/reservation_1.jpg);
+}
+
+.img-box.img-3 {
+	background-image: url(../img/restaurant/reservation_2.jpg);
+}
