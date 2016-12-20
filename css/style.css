@@ -6540,6 +6540,7 @@ table th {
 
 .footer-get-in-touch .info-holder {
   margin-top: 31px;
+  margin-bottom: 10px;
 }
 
 .footer-get-in-touch p,
@@ -6553,6 +6554,7 @@ table th {
   font-size: 15px;
   color: #5a5b5f;
   margin-right: 5px;
+  margin-bottom: 20px;
 }
 
 .footer-address {

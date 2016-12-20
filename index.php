@@ -253,9 +253,9 @@
       <section class="section-wrap relative uno parallax-section">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-right">
+            <div class="col-md-12 text-center">
               <h2 class="heading white bottom-line mb-40 local-scroll wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.08s">AL ESTILO ARRANCADERO</h2>
-
+              <!--<iframe width="100%" height="600" src="https://www.youtube.com/embed/bXCFa6pwlR4?rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>-->
             </div>
           </div>
         </div>
@@ -533,9 +533,14 @@
                      <div class="row">
                        <div class="col-md-12">
                          <div class="col-md-6">
-                          <div class="footer-logo local-scroll text-center mb-50 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                          <div class="footer-logo local-scroll text-center mb-20 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <img class="logo" src="img/web/iconobot.png" alt="logo">
                           </div>
+                          <div class="info-holder text-center mb-20">
+                    <address class="footer-address">Pedro Meneses Hoyos 6754 <br>Cd. Juárez, Chihuahua México</br></address>
+                    <a href="tel:+16565582595">Teléfono: (656) 558 2595</a>
+
+                </div>
 
                           <div class="footer-socials">
                             <div class="social-icons dark rounded text-center">
@@ -546,7 +551,8 @@
                               <a href="#"><i class="fa fa-vimeo"></i></a>
                             </div>
                           </div>
-
+   
+                  
 
                         </div>
                         <div class="col-md-6">
