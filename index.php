@@ -10,6 +10,7 @@
   
   <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:400,400i,700' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 
   <!-- Css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -253,8 +254,8 @@
       <section class="section-wrap relative uno parallax-section">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
-              <h2 class="heading white bottom-line mb-40 local-scroll wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.08s">AL ESTILO ARRANCADERO</h2>
+            <div class="col-md-12 text-center mt-140">
+              <h2 class="heading white bottom-line mb-40 local-scroll wow zoomIn text-right" data-wow-duration="0.8s" data-wow-delay="0.08s">AL ESTILO ARRANCADERO</h2>
               <!--<iframe width="100%" height="600" src="https://www.youtube.com/embed/bXCFa6pwlR4?rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>-->
             </div>
           </div>
@@ -273,7 +274,7 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img1big_carrusel.png" data-popup-type="iframe">
+                  <a href="img/web/img_1_carrusel.png" title="Lonely Forest">
                     <img src="img/web/img1_carrusel.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
@@ -289,7 +290,7 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img2big_carrusel.png" data-popup-type="iframe">
+                  <a href="img/web/img_2_carrusel.png" title="Lonely Forest">
                     <img src="img/web/img2_carrusel.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
@@ -305,7 +306,7 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img3big_carrusel.png" title="Lonely Forest">
+                  <a href="img/web/img_3_carrusel.png" title="Lonely Forest">
                     <img src="img/web/img3_carrusel.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
@@ -321,7 +322,7 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img4big_carrusel.png" title="Lonely Forest">
+                  <a href="img/web/img_4_carrusel.png" title="Lonely Forest">
                     <img src="img/web/img4_carrusel.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
@@ -337,7 +338,7 @@
            <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img5big_carrusel.png" title="Lonely Forest">
+                  <a href="img/web/img_5_carrusel.png" title="Lonely Forest">
                     <img src="img/web/img5_carrusel.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
@@ -449,11 +450,7 @@
                 <div class="work-item hover-2">
                   <div class="work-container">
                     <div class="work-img">
-                      <a href="img/web/menu_ensaladas.png" title="x" class="lightbox-gallery">
-                        <a href="img/web/menu_entradas.png" title="x" class="lightbox-gallery">
-                          <a href="img/web/menu_parrilladas.png" title="x" class="lightbox-gallery">
-                            <a href="img/web/menu_platofuerte.png" title="x" class="lightbox-gallery">
-                              <a href="img/web/menu_sopas.png" title="x" class="lightbox-gallery">
+                        <a href="#" title="Lonely Forest" class="lightbox-gallery">
                                 <img src="img/web/img_menu.png" alt="">
                                 <div class="work-overlay">
                                   <div class="work-description">
@@ -559,14 +556,11 @@
                          <form id="contact-form" action="#">
 
                           <div class="row row-12">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                               <input name="name" id="name" type="text" placeholder="Nombre*" required>
                             </div> 
 
-                            <div class="col-md-6">
-                             <input type="submit" class="btn-submit" value="Enviar" id="submit-message">
-                           </div>
-                         </div>
+                        
 
                          <div class="row row-12">
                           <div class="col-md-6">
@@ -575,10 +569,18 @@
                           <div class="col-md-6">
                             <input name="telefono" id="telfono" type="text" placeholder="Teléfono*" required>
                           </div>
-                        </div>              
+                        </div> 
 
+                          <div class="row row-12">
                         <textarea name="comment" id="comment" placeholder="Message" rows="4"></textarea>
-                        <div id="msg" class="message"></div>
+                          
+                        </div>               
+
+                        <!--<div id="msg" class="message"></div>-->
+                        <div class="col-md-6">
+                             <input type="submit" class="btn-submit" value="Enviar" id="submit-message">
+                        </div>
+                         </div>
                       </form>
 
                     </div>
@@ -604,6 +606,15 @@
 
           </div> <!-- end content wrapper -->
         </div> <!-- end main wrapper -->
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+ <iframe width="100%" height="400" src="https://www.youtube.com/embed/bXCFa6pwlR4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
         <!-- jQuery Scripts -->
         <script type="text/javascript" src="js/jquery.min.js"></script>

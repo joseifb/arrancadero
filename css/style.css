@@ -572,6 +572,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #212121;
   font-weight: 700;
   line-height: 1.5;
+  text-shadow: 0px 3px 0px #000;
+
+
 }
 
 h1 {
@@ -579,11 +582,11 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 65px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 40px;
 }
 
 h4 {
@@ -4236,7 +4239,7 @@ p.intro-text {
 }
 
 .work-item .work-description h3 {
-  font-size: 20px;
+  font-size: 45px;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 5px;
@@ -6289,7 +6292,7 @@ table th {
 }
 
 .alt-font h1, .alt-font h2, .alt-font h3, .alt-font h4, .alt-font h5, .alt-font h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
   letter-spacing: -0.04em;
 }
 

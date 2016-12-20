@@ -3,6 +3,7 @@
   "use strict";
 
   $(window).load(function() {
+    $('#myModal').modal('show')
 
     // Preloader
     $('.loader').fadeOut();
