@@ -15,6 +15,8 @@
     display: block;
     margin: 0;
   }
+
+
 }
 
 @media (max-width: 991px) {
@@ -359,6 +361,8 @@
     font-size: 24px;
     line-height: 1.5;
   }
+
+
 }
 
 @media (max-width: 767px) {
@@ -427,6 +431,8 @@
   .entry-wrap {
     padding-top: 30px;
   }
+
+
 }
 
 @media (max-width: 640px) {
@@ -481,6 +487,15 @@
   .blog-creative .masonry-item {
     height: 400px;
   }
+
+    h4 {
+  color: #212121;
+  text-shadow: none;
+
+  }
+
+
+
 }
 
 @media (max-width: 540px) {
@@ -492,6 +507,12 @@
   }
   #team-slider .gallery-cell {
     width: 100%;
+  }
+
+    h4 {
+  color: #212121;
+  text-shadow: none;
+
   }
 }
 
@@ -526,6 +547,18 @@
 
 
   }
+
+
+
+   h4 {
+  color: #212121;
+  text-shadow: none;
+
+  }
+
+
+
+  
 
 }
 

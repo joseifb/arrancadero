@@ -12,6 +12,11 @@
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:400,400i,700' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 
+  <link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
+
+  <!-- If you'd like to support IE8 -->
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
   <!-- Css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/magnific-popup.css" />
@@ -41,8 +46,25 @@
       <div></div>
     </div>
   </div>
+  <!--<video  id="vbackground" src="video/intro.mp4" autoplay>-->
 
-  <div class="main-wrapper oh">
+  <a id="video" href="video/intro.mp4"  class="lightbox-video mfp-iframe"></a>
+
+  
+
+
+
+
+   <!--<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+    <source src="video/intro.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>-->
+
+  <div id="home" class="main-wrapper oh">
 
     <header class="nav-type-1 transparent">
 
@@ -56,7 +78,7 @@
                 <!-- Logo -->
                 <div class="logo-container">
                   <div class="logo-wrap">
-                    <a href="index.php">
+                    <a href="#home">
                       <img class="logo" src="img/web/logo150.png" alt="logo">
                       <img class="logo-dark" src="img/web/logo150.png" alt="logo">
                     </a>
@@ -70,13 +92,13 @@
                 </button>
               </div> <!-- end navbar-header -->
 
-              <div class="col-md-12 nav-wrap">
+              <div class="col-md-12 nav-wrap mt-30">
                 <div class="collapse navbar-collapse text-center" id="navbar-collapse">
 
                   <ul class="nav navbar-nav">
 
                     <li class="dropdown active">
-                      <a href="index.php">Home</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
+                      <a href="#home"><h4>Home</h4></a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
                       <!--<ul class="dropdown-menu">
                         <li><a href="index.html">Agency</a></li>
                         <li><a href="index-2.html">Business</a></li>
@@ -96,6 +118,20 @@
                         <li><a href="index-restaurant-op.html">Restaurant Onepage</a></li>
                       </ul>-->
                     </li>
+
+                    <li class="dropdown active">
+                      <a href="#about"><h4>Nosotros</h4></a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
+                    </li>
+                    <li class="dropdown active">
+                      <a data-toggle="modal" id="lol" data-target="#modalmenu"><h4>Menú</h4></a><i class="fa fa-angle-down dropdown-toggle"></i>
+                    </li>  
+                    <li class="dropdown active">
+                      <a href="#all"><h4>Galería</h4></a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
+                    </li> 
+                    <li class="dropdown active">
+                      <a href="#contact-form"><h4>Contacto</h4></a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
+                    </li>
+
 
                     <!--<li class="dropdown">
                       <a href="#">Pages</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
@@ -375,7 +411,7 @@
       </section> <!-- end intro -->
 
       <!-- Opening Hours -->
-      <section class="section-wrap relative arrancadero parallax-section">
+      <section id="about" class="section-wrap relative arrancadero parallax-section">
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-justify">
@@ -391,7 +427,7 @@
         </section> <!-- end opening hours -->
 
         <!-- Portfolio Masonry -->
-        <section class="section-wrap nopadding">
+        <section id="all" class="section-wrap nopadding">
           <div class="container-fluid">
 
             <div class="row">
@@ -404,8 +440,8 @@
                         <img src="img/web/img_cabrito.png" alt="">
                         <div class="work-overlay">
                           <div class="work-description">
-                            <h3>Vimeo Video</h3>
-                            <span>Photography</span>
+                            <!--<h3>Vimeo Video</h3>
+                            <span>Photography</span>-->
                           </div>
                         </div>
                       </a>              
@@ -421,8 +457,8 @@
                         <img src="img/web/img_promo.png" alt="">
                         <div class="work-overlay">
                           <div class="work-description">
-                            <h3>Youtube Video</h3>
-                            <span>Photography</span>
+                            <!--<h3>Youtube Video</h3>
+                            <span>Photography</span>-->
                           </div>
                         </div>
                       </a>              
@@ -437,8 +473,8 @@
                         <img src="img/web/img_eventos.png" alt="">
                         <div class="work-overlay">
                           <div class="work-description">
-                            <h3>Minimal Table</h3>
-                            <span>Photography</span>
+                            <!--<h3>Minimal Table</h3>
+                            <span>Photography</span>-->
                           </div>
                         </div>
                       </a>              
@@ -450,12 +486,12 @@
                 <div class="work-item hover-2">
                   <div class="work-container">
                     <div class="work-img">
-                      <a data-toggle="modal" data-target="#modalmenu">
+                      <a data-toggle="modal" id="lol" data-target="#modalmenu">
                         <img src="img/web/img_menu.png" alt="">
                         <div class="work-overlay">
                           <div class="work-description">
-                            <h3>Broshure</h3>
-                            <span>Branding</span>
+                            <!--<h3>Broshure</h3>
+                            <span>Branding</span>-->
                           </div>
                         </div>
                       </a>              
@@ -471,8 +507,8 @@
                       <img src="img/web/img_galeria.png" alt="">
                       <div class="work-overlay">
                         <div class="work-description">
-                          <h3>Simple Interior</h3>
-                          <span>Design</span>
+                          <!--<h3>Simple Interior</h3>
+                          <span>Design</span>-->
                         </div>
                       </div>
                     </a>              
@@ -488,8 +524,8 @@
                       <img src="img/web/img_bebidas.png" alt="">
                       <div class="work-overlay">
                         <div class="work-description">
-                          <h3>Identity</h3>
-                          <span>Branding</span>
+                          <!--<h3>Identity</h3>
+                          <span>Branding</span>-->
                         </div>
                       </div>
                     </a>              
@@ -607,161 +643,103 @@
 </div> <!-- end content wrapper -->
 </div> <!-- end main wrapper -->
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-     <iframe width="100%" height="400" src="https://www.youtube.com/embed/bXCFa6pwlR4?autoplay=1" frameborder="0" allowfullscreen></iframe>
-   </div>
- </div>
-</div>
-
 <div id="modalmenu" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="container-fluid textura">
 
       <div class="row imagenFondo">
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc      ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc      ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc      ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc      ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc      ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
-        ccccccccccccccccc
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+     </div>
+     <div class="row">
+      <ul class="menucito col-md-12">
+        <strong><li id="seleentradas" class="seleccionado col-md-2">Entradas</li></strong>
+        <strong><li id="seleensaladas" class="col-md-2">Ensaladas</li></strong>
+        <strong><li id="seletacosysopas" class="col-md-2">Tacos y Sopas</li></strong>
+        <strong><li id="seleplatofuerte" class="col-md-2">Platos Fuertes</li></strong>
+        <strong><li id="seleparrilladas" class="col-md-2">Parrilladas</li></strong>
+        <strong><li id="selepostres" class="col-md-2">Postres</li></strong>
+      </ul>
+      <div id="entradas" class="platillos">
+        <div class="work-item starters col-md-12">
+          <img src="img/web/txtentradas.png">
+
+        </div>
       </div>
-      <div class="row">
-        <ul class="menucito">
-          <li id="seleentradas" class="seleccionado">Entradas</li>
-          <li id="seleensaladas">Ensaladas</li>
-          <li id="seletacosysopas">Tacos y Sopas</li>
-          <li id="seleplatofuerte">Platos Fuertes</li>
-          <li id="seleparrilladas">Parrilladas</li>
-          <li id="selepostres">Postres</li>
-        </ul>
-        <div id="entradas" class="platillos">
-          <div class="work-item starters col-md-4">
-         <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
+      <div id="ensaladas" class="platillos">
+        <div class="work-item starters col-md-12">
+          <img src="img/web/txtensaladas.png">
+
+        </div>
+      </div>
+      <div id="tacosysopas" class="platillos">
+        <div class="work-item starters col-md-12">
+          <img src="img/web/txttacosysopas.png">
+
+        </div>
+      </div>
+      <div id="platofuerte" class="platillos">
+        <div class="work-item starters col-md-12">
+          <img src="img/web/txtplatosfuertes.png">
+
+        </div>
+      </div>
+      <div id="parrilladas" class="platillos">
+        <div class="work-item starters col-md-12">
+          <img src="img/web/txtparrilladas.png">
+
+        </div>
+      </div>
+      <div id="postres" class="platillos">
+        <div class="work-item starters col-md-6">
+          <br>
+          <br>
+          <br>
+
+         <h5>Budín de chocolate</h5>
+          <br>
+          <br>
+          <br>
+
+            
+          </div>
+
+           <div class="work-item starters col-md-6">
+
+          <br>
+          <br>
+          <br>
+
+         <h5>Pay de Queso</h5>
+          <br>
+          <br>
+          <br>
+
             
           </div>
 
         </div>
-        <!--<div id="ensaladas" class="platillos">
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-        </div>
-          <div id="tacosysopas" class="platillos">
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-        </div>
-
-             <div id="platofuerte" class="platillos">
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-        </div>
-             <div id="parrilladas" class="platillos">
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-        </div>
-            <div id="postres" class="platillos">
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-          <div class="work-item starters col-md-4">
-            <h5>Queso Fundido</h5>
-            <h6>Con champiñónes, rajas o chorizo</h6>
-          </div>
-        </div>-->
-
-
       </div>
     </div>
   </div>
-
+</div>
 </div>
 
 <!-- jQuery Scripts -->
@@ -783,6 +761,7 @@
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="http://vjs.zencdn.net/5.12.6/video.js"></script>
 
 </body>
 </html>

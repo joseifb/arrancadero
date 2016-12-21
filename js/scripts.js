@@ -3,7 +3,25 @@
   "use strict";
 
   $(window).load(function() {
+    $( "#video" ).click();
     //$('#myModal').modal('show');
+    // setTimeout() function will be fired after page is loaded
+    // it will wait for 5 sec. and then will fire
+    // $("#successMessage").hide() function
+   function explode(){
+  $( ".mfp-close" ).click();
+}
+setTimeout(explode, 5200);
+$(".imagenFondo").css("background-image","url(img/web/entradas.png)");
+
+$('#modalmenu').on('shown.bs.modal', function (e) {
+  //$("#seleentradas").addClass("seleccionado");
+
+   $("#seleentradas").click();
+  
+  
+})
+
 
     $(".menucito li").click(function(evt){
         var id = evt.target.id;
@@ -16,6 +34,31 @@
         $(".imagenFondo").css("background-image","url(img/web/"+id+".png)");
         $(".imagenFondo").css("opacity","1");
       });
+
+    //smooth scrolling
+
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
 
     // Preloader
     $('.loader').fadeOut();

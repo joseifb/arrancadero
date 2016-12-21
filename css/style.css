@@ -591,6 +591,7 @@ h3 {
 
 h4 {
   font-size: 24px;
+  color: #fff;
 }
 
 h5 {
@@ -6131,6 +6132,11 @@ label {
   padding: 15px 30px;
 }
 
+.modal-header {
+  padding: 15px 30px;
+}
+
+
 /*-------------------------------------------------------*/
 /* Tables
 /*-------------------------------------------------------*/
@@ -6789,3 +6795,23 @@ input[type="email"].newsletter-input:focus {
       float: left;
       text-align: center;
     }
+
+
+
+
+
+
+
+
+
+
+    /*  video  */
+
+  #vbackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1000;
+}
