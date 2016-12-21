@@ -3,7 +3,19 @@
   "use strict";
 
   $(window).load(function() {
-    $('#myModal').modal('show')
+    //$('#myModal').modal('show');
+
+    $(".menucito li").click(function(evt){
+        var id = evt.target.id;
+        $(".menucito li").removeClass("seleccionado");
+        $("#"+id).addClass("seleccionado");
+        id = id.replace("sele",""); 
+        $(".platillos").fadeOut();
+        $("#"+id).fadeIn();
+        $(".imagenFondo").css("opacity","0");
+        $(".imagenFondo").css("background-image","url(img/web/"+id+".png)");
+        $(".imagenFondo").css("opacity","1");
+      });
 
     // Preloader
     $('.loader').fadeOut();

@@ -566,7 +566,7 @@ ul {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4{
   font-family: "Poppins", sans-serif;
   margin-top: 0;
   color: #212121;
@@ -594,11 +594,11 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h6 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
@@ -6291,10 +6291,22 @@ table th {
   font-family: "Open Sans", sans-serif;
 }
 
-.alt-font h1, .alt-font h2, .alt-font h3, .alt-font h4, .alt-font h5, .alt-font h6 {
+.alt-font h1, .alt-font h2, .alt-font h3, .alt-font h4{
   font-family: "EB Garamond", serif;
   letter-spacing: -0.04em;
 }
+
+.alt-font h6 {
+  font-family: "Helvetica", serif;
+  color: #212121;
+}
+.alt-font h5 {
+  font-family: "Helvetica", serif;
+  line-height: 1%;
+  color: #212121;
+  
+}
+
 
 .alt-font .testimonials .testimonial-text {
   font-family: "Playfair Display", serif;
@@ -6741,4 +6753,39 @@ input[type="email"].newsletter-input:focus {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+/* menu urrusss*/
+.scroll{
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    .seleccionado{
+      color:#444;
+    }
+    #Entradas, #tacosSopas{
+      display: none;
+    }
+    .imagenFondo{
+      background-image: url(../img/web/ensaladas.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: opacity .5s;
+
+    }
+    .textura{
+      background-image: url(../img/web/textura.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; 
+    }
+    .menucito{
+      width: 80%;
+      margin-left: 10%;
+    }
+    .menucito li{
+      width:calc(100% / 6);
+      display:inline-block;
+      float: left;
+      text-align: center;
+    }

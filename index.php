@@ -335,7 +335,7 @@
               </div> 
             </div> <!-- end work-item -->
 
-           <div class="gallery-cell work-item hover-3">
+            <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
                   <a href="img/web/img_5_carrusel.png" title="Lonely Forest">
@@ -381,7 +381,7 @@
             <div class="col-md-12 text-justify">
 
               <p class="about white bold">El Arrancadero tiene sus raíces en la vida campestre de Chihuahua donde la vida gira alrededor de el trabajo de las tierras y la crianza de animales de granja. Vida que se disfruta al aire libre y áreas verdes como en nuestro patio donde organizamos las mejores fiestas y reuniones, incluso hasta con peleas de gallos.
-              <br></br>
+                <br></br>
                 Una de las grandes pasiones de la vida campestre son las carreras de caballos donde se puede demostrar el trabajo invertido en la crianza y alimentación especial de los equinos y que puedes venir a disfrutar en nuestra pista de carreras.Pero la vida campestre no sería lo que es sin su gastronomía y la familia unida comiendo a la mesa, es por eso que en el Arrancadero nos enorgullecemos de mencionar que somos expertos en preparar cabrito a la vuelta y vuelta y lechón al horno, con recetas familiares provenientes del estilo campestre de Chihuahua y verduras de nuestro propio sembradío.</p>
 
               </div>
@@ -450,191 +450,339 @@
                 <div class="work-item hover-2">
                   <div class="work-container">
                     <div class="work-img">
-                        <a href="#" title="Lonely Forest" class="lightbox-gallery">
-                                <img src="img/web/img_menu.png" alt="">
-                                <div class="work-overlay">
-                                  <div class="work-description">
-                                    <h3>Broshure</h3>
-                                    <span>Branding</span>
-                                  </div>
-                                </div>
-                              </a>              
-                            </div>
-                          </div> 
-                        </div> <!-- end work-item -->
+                      <a data-toggle="modal" data-target="#modalmenu">
+                        <img src="img/web/img_menu.png" alt="">
+                        <div class="work-overlay">
+                          <div class="work-description">
+                            <h3>Broshure</h3>
+                            <span>Branding</span>
+                          </div>
+                        </div>
+                      </a>              
+                    </div>
+                  </div> 
+                </div> <!-- end work-item -->
 
-                        <div class="work-item quarter hover-2">
-                          <div class="work-container">
-                            <div class="work-img">
-                             <!-- <a href="img/portfolio/5_big.jpg" title="Lonely Forest" class="lightbox-gallery">-->
-                              <a href="#" title="Lonely Forest" class="lightbox-gallery">
-                                <img src="img/web/img_galeria.png" alt="">
-                                <div class="work-overlay">
-                                  <div class="work-description">
-                                    <h3>Simple Interior</h3>
-                                    <span>Design</span>
-                                  </div>
-                                </div>
-                              </a>              
-                            </div>
-                          </div> 
-                        </div> <!-- end work-item -->
-
-                        <div class="work-item quarter hover-2">
-                          <div class="work-container">
-                            <div class="work-img">
-                             
-                              <a href="#" title="Lonely Forest" class="lightbox-gallery">
-                                <img src="img/web/img_bebidas.png" alt="">
-                                <div class="work-overlay">
-                                  <div class="work-description">
-                                    <h3>Identity</h3>
-                                    <span>Branding</span>
-                                  </div>
-                                </div>
-                              </a>              
-                            </div>
-                          </div> 
-                        </div> <!-- end work-item -->
-
-
-                      </div>  <!-- end portfolio container -->
-                    </div> <!-- end row -->
-
-                  </div>
-                </section> <!-- end portfolio -->
-
-
-                <!-- Opening Hours -->
-                <section class="section-wrap relative tres parallax-section">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-12 text-center">
-                        <h2 class="heading white bottom-line mb-20">Horario de Servicio</h2>
-                        <p class="white">Martes-Domingo 8:00AM - 10:00PM <br>Desayuno Buffet</p>
-                        <p class="white">Martes-Domingo 8:00AM - 12:00PM </p>
+                <div class="work-item quarter hover-2">
+                  <div class="work-container">
+                    <div class="work-img">
+                     <!-- <a href="img/portfolio/5_big.jpg" title="Lonely Forest" class="lightbox-gallery">-->
+                     <a href="#" title="Lonely Forest" class="lightbox-gallery">
+                      <img src="img/web/img_galeria.png" alt="">
+                      <div class="work-overlay">
+                        <div class="work-description">
+                          <h3>Simple Interior</h3>
+                          <span>Design</span>
+                        </div>
                       </div>
-                    </div>
+                    </a>              
                   </div>
-                  <div class="parallax" data-stellar-background-ratio="0.3"></div>
-                </section> <!-- end opening hours -->
+                </div> 
+              </div> <!-- end work-item -->
 
+              <div class="work-item quarter hover-2">
+                <div class="work-container">
+                  <div class="work-img">
 
-                <!-- Footer Type-2 -->
-                <footer class="footer footer-type-2 bg-dark">
-                  <div class="container">
-                    <div class="footer-widgets">
-
-
-
-                     <div class="row">
-                       <div class="col-md-12">
-                         <div class="col-md-6">
-                          <div class="footer-logo local-scroll text-center mb-20 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <img class="logo" src="img/web/iconobot.png" alt="logo">
-                          </div>
-                          <div class="info-holder text-center mb-20">
-                    <address class="footer-address">Pedro Meneses Hoyos 6754 <br>Cd. Juárez, Chihuahua México</br></address>
-                    <a href="tel:+16565582595">Teléfono: (656) 558 2595</a>
-
-                </div>
-
-                          <div class="footer-socials">
-                            <div class="social-icons dark rounded text-center">
-                              <a href="#"><i class="fa fa-twitter"></i></a>
-                              <a href="#"><i class="fa fa-facebook"></i></a>                  
-                              <a href="#"><i class="fa fa-google-plus"></i></a>
-                              <a href="#"><i class="fa fa-linkedin"></i></a>
-                              <a href="#"><i class="fa fa-vimeo"></i></a>
-                            </div>
-                          </div>
-   
-                  
-
+                    <a href="#" title="Lonely Forest" class="lightbox-gallery">
+                      <img src="img/web/img_bebidas.png" alt="">
+                      <div class="work-overlay">
+                        <div class="work-description">
+                          <h3>Identity</h3>
+                          <span>Branding</span>
                         </div>
-                        <div class="col-md-6">
-                         <form id="contact-form" action="#">
-
-                          <div class="row row-12">
-                            <div class="col-md-12">
-                              <input name="name" id="name" type="text" placeholder="Nombre*" required>
-                            </div> 
-
-                        
-
-                         <div class="row row-12">
-                          <div class="col-md-6">
-                            <input name="email" id="email" type="email" placeholder="Email*" required>
-                          </div>
-                          <div class="col-md-6">
-                            <input name="telefono" id="telfono" type="text" placeholder="Teléfono*" required>
-                          </div>
-                        </div> 
-
-                          <div class="row row-12">
-                        <textarea name="comment" id="comment" placeholder="Message" rows="4"></textarea>
-                          
-                        </div>               
-
-                        <!--<div id="msg" class="message"></div>-->
-                        <div class="col-md-6">
-                             <input type="submit" class="btn-submit" value="Enviar" id="submit-message">
-                        </div>
-                         </div>
-                      </form>
-
-                    </div>
-
-
-
+                      </div>
+                    </a>              
                   </div>
-                </div>
-                <div class="bottom-footer">
-                  <div class="copyright text-center">
-                    <span>
-                      © 2016 El Arrancadero • Design by <a href="http://wmu.mx">Watermark United</a>
-                    </span>
-                  </div>
-                </div>  
-              </div> <!-- end container -->
-            </footer> <!-- end footer -->
+                </div> 
+              </div> <!-- end work-item -->
 
 
-            <div id="back-to-top">
-              <a href="#top"><i class="fa fa-angle-up"></i></a>
+            </div>  <!-- end portfolio container -->
+          </div> <!-- end row -->
+
+        </div>
+      </section> <!-- end portfolio -->
+
+
+      <!-- Opening Hours -->
+      <section class="section-wrap relative tres parallax-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="heading white bottom-line mb-20">Horario de Servicio</h2>
+              <p class="white">Martes-Domingo 8:00AM - 10:00PM <br>Desayuno Buffet</p>
+              <p class="white">Martes-Domingo 8:00AM - 12:00PM </p>
             </div>
+          </div>
+        </div>
+        <div class="parallax" data-stellar-background-ratio="0.3"></div>
+      </section> <!-- end opening hours -->
 
-          </div> <!-- end content wrapper -->
-        </div> <!-- end main wrapper -->
 
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <!-- Footer Type-2 -->
+      <footer class="footer footer-type-2 bg-dark">
+        <div class="container">
+          <div class="footer-widgets">
+
+
+
+           <div class="row">
+             <div class="col-md-12">
+               <div class="col-md-6">
+                <div class="footer-logo local-scroll text-center mb-20 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <img class="logo" src="img/web/iconobot.png" alt="logo">
+                </div>
+                <div class="info-holder text-center mb-20">
+                  <address class="footer-address">Pedro Meneses Hoyos 6754 <br>Cd. Juárez, Chihuahua México</br></address>
+                  <a href="tel:+16565582595">Teléfono: (656) 558 2595</a>
+
+                </div>
+
+                <div class="footer-socials">
+                  <div class="social-icons dark rounded text-center">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>                  
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-vimeo"></i></a>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <div class="col-md-6">
+               <form id="contact-form" action="#">
+
+                <div class="row row-12">
+                  <div class="col-md-12">
+                    <input name="name" id="name" type="text" placeholder="Nombre*" required>
+                  </div> 
+
+
+
+                  <div class="row row-12">
+                    <div class="col-md-6">
+                      <input name="email" id="email" type="email" placeholder="Email*" required>
+                    </div>
+                    <div class="col-md-6">
+                      <input name="telefono" id="telfono" type="text" placeholder="Teléfono*" required>
+                    </div>
+                  </div> 
+
+                  <div class="row row-12">
+                    <textarea name="comment" id="comment" placeholder="Message" rows="4"></textarea>
+
+                  </div>               
+
+                  <!--<div id="msg" class="message"></div>-->
+                  <div class="col-md-6">
+                   <input type="submit" class="btn-submit" value="Enviar" id="submit-message">
+                 </div>
+               </div>
+             </form>
+
+           </div>
+
+
+
+         </div>
+       </div>
+       <div class="bottom-footer">
+        <div class="copyright text-center">
+          <span>
+            © 2016 El Arrancadero • Design by <a href="http://wmu.mx">Watermark United</a>
+          </span>
+        </div>
+      </div>  
+    </div> <!-- end container -->
+  </footer> <!-- end footer -->
+
+
+  <div id="back-to-top">
+    <a href="#top"><i class="fa fa-angle-up"></i></a>
+  </div>
+
+</div> <!-- end content wrapper -->
+</div> <!-- end main wrapper -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
- <iframe width="100%" height="400" src="https://www.youtube.com/embed/bXCFa6pwlR4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+     <iframe width="100%" height="400" src="https://www.youtube.com/embed/bXCFa6pwlR4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+   </div>
+ </div>
+</div>
+
+<div id="modalmenu" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="container-fluid textura">
+
+      <div class="row imagenFondo">
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc      ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc      ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc      ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc      ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc      ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+        ccccccccccccccccc
+      </div>
+      <div class="row">
+        <ul class="menucito">
+          <li id="seleentradas" class="seleccionado">Entradas</li>
+          <li id="seleensaladas">Ensaladas</li>
+          <li id="seletacosysopas">Tacos y Sopas</li>
+          <li id="seleplatofuerte">Platos Fuertes</li>
+          <li id="seleparrilladas">Parrilladas</li>
+          <li id="selepostres">Postres</li>
+        </ul>
+        <div id="entradas" class="platillos">
+          <div class="work-item starters col-md-4">
+         <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+            
+          </div>
+
+        </div>
+        <!--<div id="ensaladas" class="platillos">
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+        </div>
+          <div id="tacosysopas" class="platillos">
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+        </div>
+
+             <div id="platofuerte" class="platillos">
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+        </div>
+             <div id="parrilladas" class="platillos">
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+        </div>
+            <div id="postres" class="platillos">
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+          <div class="work-item starters col-md-4">
+            <h5>Queso Fundido</h5>
+            <h6>Con champiñónes, rajas o chorizo</h6>
+          </div>
+        </div>-->
+
+
       </div>
     </div>
   </div>
+
 </div>
 
-        <!-- jQuery Scripts -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/plugins.js"></script>
-        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-        <script type="text/javascript" src="js/rev-slider.js"></script>
-        <script type="text/javascript" src="js/scripts.js"></script>
+<!-- jQuery Scripts -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="js/rev-slider.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 
 
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 
-      </body>
-      </html>
+</body>
+</html>
