@@ -11,6 +11,8 @@
   <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:400,400i,700' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Poppins:400,600,700%7CMerriweather:400,400i,700' rel='stylesheet'>
 
   <link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
 
@@ -28,6 +30,7 @@
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/spacings.css" />
   <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/urrus.css">
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="img/favicon.ico">
@@ -123,7 +126,7 @@
                       <a href="#about"><h4>Nosotros</h4></a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
                     </li>
                     <li class="dropdown active">
-                      <a data-toggle="modal" id="lol" data-target="#modalmenu"><h4>Menú</h4></a><i class="fa fa-angle-down dropdown-toggle"></i>
+                      <a href="menu.html"><h4>Menú</h4></a><i class="fa fa-angle-down dropdown-toggle"></i>
                     </li>  
                     <li class="dropdown active">
                       <a href="#all"><h4>Galería</h4></a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
@@ -486,7 +489,7 @@
                 <div class="work-item hover-2">
                   <div class="work-container">
                     <div class="work-img">
-                      <a data-toggle="modal" id="lol" data-target="#modalmenu">
+                      <a href="menu.html">
                         <img src="img/web/img_menu.png" alt="">
                         <div class="work-overlay">
                           <div class="work-description">
@@ -520,7 +523,7 @@
                 <div class="work-container">
                   <div class="work-img">
 
-                    <a href="#" title="Lonely Forest" class="lightbox-gallery">
+                    <a href="bebidas.html">
                       <img src="img/web/img_bebidas.png" alt="">
                       <div class="work-overlay">
                         <div class="work-description">

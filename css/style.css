@@ -567,14 +567,12 @@ ul {
 }
 
 h1, h2, h3, h4{
-  font-family: "Poppins", sans-serif;
+  font-family: "EB Garamond", serif;
   margin-top: 0;
   color: #212121;
   font-weight: 700;
   line-height: 1.5;
   text-shadow: 0px 3px 0px #000;
-
-
 }
 
 h1 {
