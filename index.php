@@ -473,7 +473,7 @@
                   <div class="work-container">
                     <div class="work-img">
                       <a href="#" title="Lonely Forest" class="lightbox-gallery">
-                        <img src="img/web/img_eventos.png" alt="">
+                        <img src="img/web/img_eventos.png" alt="Eventos Arrancadero">
                         <div class="work-overlay">
                           <div class="work-description">
                             <!--<h3>Minimal Table</h3>
@@ -646,103 +646,7 @@
 </div> <!-- end content wrapper -->
 </div> <!-- end main wrapper -->
 
-<div id="modalmenu" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="container-fluid textura">
 
-      <div class="row imagenFondo">
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-     </div>
-     <div class="row">
-      <ul class="menucito col-md-12">
-        <strong><li id="seleentradas" class="seleccionado col-md-2">Entradas</li></strong>
-        <strong><li id="seleensaladas" class="col-md-2">Ensaladas</li></strong>
-        <strong><li id="seletacosysopas" class="col-md-2">Tacos y Sopas</li></strong>
-        <strong><li id="seleplatofuerte" class="col-md-2">Platos Fuertes</li></strong>
-        <strong><li id="seleparrilladas" class="col-md-2">Parrilladas</li></strong>
-        <strong><li id="selepostres" class="col-md-2">Postres</li></strong>
-      </ul>
-      <div id="entradas" class="platillos">
-        <div class="work-item starters col-md-12">
-          <img src="img/web/txtentradas.png">
-
-        </div>
-      </div>
-      <div id="ensaladas" class="platillos">
-        <div class="work-item starters col-md-12">
-          <img src="img/web/txtensaladas.png">
-
-        </div>
-      </div>
-      <div id="tacosysopas" class="platillos">
-        <div class="work-item starters col-md-12">
-          <img src="img/web/txttacosysopas.png">
-
-        </div>
-      </div>
-      <div id="platofuerte" class="platillos">
-        <div class="work-item starters col-md-12">
-          <img src="img/web/txtplatosfuertes.png">
-
-        </div>
-      </div>
-      <div id="parrilladas" class="platillos">
-        <div class="work-item starters col-md-12">
-          <img src="img/web/txtparrilladas.png">
-
-        </div>
-      </div>
-      <div id="postres" class="platillos">
-        <div class="work-item starters col-md-6">
-          <br>
-          <br>
-          <br>
-
-         <h5>Budín de chocolate</h5>
-          <br>
-          <br>
-          <br>
-
-            
-          </div>
-
-           <div class="work-item starters col-md-6">
-
-          <br>
-          <br>
-          <br>
-
-         <h5>Pay de Queso</h5>
-          <br>
-          <br>
-          <br>
-
-            
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
 <!-- jQuery Scripts -->
