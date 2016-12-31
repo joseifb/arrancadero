@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Restaurante El Arrancadero en Cd. Juárez: Los mejores cortes de la ciudad.">
+  <meta name="description" content="El Arrancadero, restaurante especialista en cabrito y lechón. Fiel representante de la alta vida campestre con su gastronomía, eventos e instalaciones.">
   
   <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:400,400i,700' rel='stylesheet'>
