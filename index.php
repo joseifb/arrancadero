@@ -440,7 +440,7 @@
                   <div class="work-container">
                     <div class="work-img">
                       <a href="http://vimeo.com/195685836" class="lightbox-video mfp-iframe">
-                        <img src="img/web/img_cabrito.png" alt="">
+                        <img src="img/web/img_cabrito.png" alt="Cabrito">
                         <div class="work-overlay">
                           <div class="work-description">
                             <!--<h3>Vimeo Video</h3>
