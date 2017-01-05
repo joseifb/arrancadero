@@ -313,8 +313,8 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img_1_carrusel.png" title="Lonely Forest">
-                    <img src="img/web/img1_carrusel.png" alt="">
+                  <a href="img/web/en.png" title="Lonely Forest">
+                    <img src="img/web/enb.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Entradas</h3>
@@ -329,8 +329,8 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img_2_carrusel.png" title="Lonely Forest">
-                    <img src="img/web/img2_carrusel.png" alt="">
+                  <a href="img/web/co.png" title="Lonely Forest">
+                    <img src="img/web/cob.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Cortes</h3>
@@ -345,8 +345,8 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img_3_carrusel.png" title="Lonely Forest">
-                    <img src="img/web/img3_carrusel.png" alt="">
+                  <a href="img/web/par.png" title="Lonely Forest">
+                    <img src="img/web/parb.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Parrillada</h3>
@@ -361,8 +361,8 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img_4_carrusel.png" title="Lonely Forest">
-                    <img src="img/web/img4_carrusel.png" alt="">
+                  <a href="img/web/sa.png" title="Lonely Forest">
+                    <img src="img/web/sab.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Salmon</h3>
@@ -377,11 +377,11 @@
             <div class="gallery-cell work-item hover-3">
               <div class="work-container">
                 <div class="work-img">
-                  <a href="img/web/img_5_carrusel.png" title="Lonely Forest">
-                    <img src="img/web/img5_carrusel.png" alt="">
+                  <a href="img/web/ca.png" title="Lonely Forest">
+                    <img src="img/web/cab.png" alt="">
                     <div class="work-overlay">
                       <div class="work-description">
-                        <h3>Salmon</h3>
+                        <h3>Cabrito</h3>
                         <!--<span>Branding</span>-->
                       </div>
                     </div>
@@ -421,7 +421,7 @@
 
               <p class="about white bold">El Arrancadero tiene sus raíces en la vida campestre de Chihuahua donde la vida gira alrededor de el trabajo de las tierras y la crianza de animales de granja. Vida que se disfruta al aire libre y áreas verdes como en nuestro patio donde organizamos las mejores fiestas y reuniones, incluso hasta con peleas de gallos.
                 <br></br>
-                Una de las grandes pasiones de la vida campestre son las carreras de caballos donde se puede demostrar el trabajo invertido en la crianza y alimentación especial de los equinos y que puedes venir a disfrutar en nuestra pista de carreras.Pero la vida campestre no sería lo que es sin su gastronomía y la familia unida comiendo a la mesa, es por eso que en el Arrancadero nos enorgullecemos de mencionar que somos expertos en preparar cabrito a la vuelta y vuelta y lechón al horno, con recetas familiares provenientes del estilo campestre de Chihuahua y verduras de nuestro propio sembradío.</p>
+                Pero la vida campestre no sería lo que es sin su gastronomía y la familia unida comiendo a la mesa, es por eso que en el Arrancadero nos enorgullecemos de mencionar que somos expertos en preparar cabrito a la vuelta y vuelta y lechón al horno, con recetas familiares provenientes del estilo campestre de Chihuahua y verduras de nuestro propio sembradío.</p>
 
               </div>
             </div>
@@ -472,7 +472,9 @@
                 <div class="work-item quarter hover-2">
                   <div class="work-container">
                     <div class="work-img">
-                      <a href="#" title="Lonely Forest" class="lightbox-gallery">
+                      <a href="img/eventos/img_eventos_ad.png" title="x" class="lightbox-gallery">
+                      <a href="img/eventos/img_privadozapata.png" title="x" class="lightbox-gallery">
+                      <a href="img/eventos/img_terraza.png" title="x" class="lightbox-gallery">
                         <img src="img/web/img_eventos.png" alt="Eventos Arrancadero">
                         <div class="work-overlay">
                           <div class="work-description">
@@ -505,8 +507,8 @@
                 <div class="work-item quarter hover-2">
                   <div class="work-container">
                     <div class="work-img">
-                     <!-- <a href="img/portfolio/5_big.jpg" title="Lonely Forest" class="lightbox-gallery">-->
-                     <a href="#" title="Lonely Forest" class="lightbox-gallery">
+                     <a href="img/portfolio/5_big.jpg" title="urrus" class="lightbox-gallery">
+
                       <img src="img/web/img_galeria.png" alt="">
                       <div class="work-overlay">
                         <div class="work-description">
@@ -550,8 +552,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <h2 class="heading white bottom-line mb-20">Horario de Servicio</h2>
-              <p class="white">Martes-Domingo 8:00AM - 10:00PM <br>Desayuno Buffet</p>
-              <p class="white">Martes-Domingo 8:00AM - 12:00PM </p>
+              <h4 >Martes - Domingo 8:00 AM - 12:00 PM </h4>
             </div>
           </div>
         </div>
@@ -580,11 +581,7 @@
 
                 <div class="footer-socials">
                   <div class="social-icons dark rounded text-center">
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-facebook"></i></a>                  
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-vimeo"></i></a>
+                    <a href="https://www.facebook.com/ElArrancadero/"><i class="fa fa-facebook"></i></a>                  
                   </div>
                 </div>
 
@@ -596,22 +593,22 @@
 
                 <div class="row row-12">
                   <div class="col-md-12">
-                    <input name="name" id="name" type="text" placeholder="Nombre*" required>
+                    <input name="name" id="nombre" type="text" placeholder="Nombre*" required>
                   </div> 
 
 
 
                   <div class="row row-12">
                     <div class="col-md-6">
-                      <input name="email" id="email" type="email" placeholder="Email*" required>
+                      <input name="email" id="correo" type="email" placeholder="Email*" required>
                     </div>
                     <div class="col-md-6">
-                      <input name="telefono" id="telfono" type="text" placeholder="Teléfono*" required>
+                      <input name="telefono" id="telefono" type="text" placeholder="Teléfono*" required>
                     </div>
                   </div> 
 
                   <div class="row row-12">
-                    <textarea name="comment" id="comment" placeholder="Message" rows="4"></textarea>
+                    <textarea name="comment" id="mensaje" placeholder="Message" rows="4"></textarea>
 
                   </div>               
 
@@ -669,6 +666,7 @@
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 <script src="http://vjs.zencdn.net/5.12.6/video.js"></script>
+<script type="text/javascript" src="js/urrus.js"></script>
 
 </body>
 </html>
