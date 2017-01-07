@@ -314,7 +314,7 @@
               <div class="work-container">
                 <div class="work-img">
                   <a href="img/web/en.png" title="Lonely Forest">
-                    <img src="img/web/enb.png" alt="">
+                    <img src="img/web/enb.png" alt="Entradas Arrancadero">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Entradas</h3>
@@ -330,7 +330,7 @@
               <div class="work-container">
                 <div class="work-img">
                   <a href="img/web/co.png" title="Lonely Forest">
-                    <img src="img/web/cob.png" alt="">
+                    <img src="img/web/cob.png" alt="Cortes Arrancadero">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Cortes</h3>
@@ -346,7 +346,7 @@
               <div class="work-container">
                 <div class="work-img">
                   <a href="img/web/par.png" title="Lonely Forest">
-                    <img src="img/web/parb.png" alt="">
+                    <img src="img/web/parb.png" alt="Parrilladas Arrancadero">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Parrillada</h3>
@@ -362,7 +362,7 @@
               <div class="work-container">
                 <div class="work-img">
                   <a href="img/web/sa.png" title="Lonely Forest">
-                    <img src="img/web/sab.png" alt="">
+                    <img src="img/web/sab.png" alt="Salmon Arrancadero">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Salmon</h3>
@@ -378,7 +378,7 @@
               <div class="work-container">
                 <div class="work-img">
                   <a href="img/web/ca.png" title="Lonely Forest">
-                    <img src="img/web/cab.png" alt="">
+                    <img src="img/web/cab.png" alt="Cabrito Arrancadero">
                     <div class="work-overlay">
                       <div class="work-description">
                         <h3>Cabrito</h3>
@@ -457,7 +457,7 @@
                     <div class="work-img">
                       <!--<a href="#" class="lightbox-video mfp-iframe">-->
                       <a>
-                        <img src="img/desayuno.png" alt="">
+                        <img src="img/desayuno.png" alt="Desayuno Buffet Arrancadero">
                         <div class="work-overlay">
                           <div class="work-description">
                             <!--<h3>Youtube Video</h3>
@@ -492,7 +492,7 @@
                   <div class="work-container">
                     <div class="work-img">
                       <a href="menu.html">
-                        <img src="img/web/img_menu.png" alt="">
+                        <img src="img/web/img_menu.png" alt="Menu Arrancadero">
                         <div class="work-overlay">
                           <div class="work-description">
                             <!--<h3>Broshure</h3>
@@ -509,7 +509,7 @@
                     <div class="work-img">
                      <!--<a href="img/portfolio/5_big.jpg" title="urrus" class="lightbox-gallery">-->
 
-                      <img src="img/web/img_galeria.png" alt="">
+                      <img src="img/web/img_galeria.png" alt="Galeria Arrancadero">
                       <div class="work-overlay">
                         <div class="work-description">
                           <!--<h3>Simple Interior</h3>
@@ -525,7 +525,7 @@
                 <div class="work-container">
                   <div class="work-img">
 
-                      <img src="img/web/img_bebidas.png" alt="">
+                      <img src="img/web/img_bebidas.png" alt="Bebidas Arrancadero">
                       <div class="work-overlay">
                         <div class="work-description">
                           <!--<h3>Identity</h3>
