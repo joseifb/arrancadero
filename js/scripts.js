@@ -1,3 +1,4 @@
+var ban=0;
 (function($){
 
   "use strict";
@@ -9,7 +10,11 @@
     // it will wait for 5 sec. and then will fire
     // $("#successMessage").hide() function
    function explode(){
-  $( ".mfp-close" ).click();
+    if(ban===0){
+      $( ".mfp-close" ).click();
+      ban=1;
+    }
+    
 }
 setTimeout(explode, 5200);
 $(".imagenFondo").css("background-image","url(img/web/entradas.png)");

@@ -551,7 +551,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <h2 class="heading white bottom-line mb-20">Horario de Servicio</h2>
-              <h4 >Martes - Domingo 8:00 AM - 10:00 PM </h4>
+              <h4 >Martes - Domingo 8:00 AM - 12:00 PM </h4>
             </div>
           </div>
         </div>
@@ -675,14 +675,6 @@
     <div class="modImagen"></div>
   </div>
   <button type="button" class="mfp-arrow mfp-arrow-right mfp-prevent-close sig"></button>
-</div>
-<div id="modBebidas" class="modalContenedor">
-  <button type="button" class="mfp-close close">×</button>
-  <button  class="mfp-arrow mfp-arrow-left mfp-prevent-close ant"></button>
-  <div class="mod">
-      <div class="modImagen"></div>
-  </div>
-  <button type="button" class="mfp-arrow mfp-arrow-right sig"></button>
 </div>
 
 <!-- jQuery Scripts -->

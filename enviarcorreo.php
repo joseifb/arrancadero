@@ -25,7 +25,7 @@ $ban=0;
   echo "falta Mensaje";
  }
  if($ban === 0){
-  $to = 'jose@belmares.me';
+  $to = 'elarrancaderorestaurante@gmail.com';
   $subject = "Mensaje de elarrancadero.com";
   $txt = '<html><body>telefono: '.$telefono.'<br>'.$nombre.'<br>'.$mensaje.'</body></html>';
   $headers ='MIME-Version: 1.0'."\r\n";
