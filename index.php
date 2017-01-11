@@ -53,7 +53,7 @@
 
   <a id="video" href="video/intro.mp4"  class="lightbox-video mfp-iframe"></a>
 
-  
+  5inf0n14--
 
 
 
@@ -63,7 +63,7 @@
     <source src="video/intro.mp4" type='video/mp4'>
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      <a href="http://videojs.cssssom/html5-video-support/" target="_blank">supports HTML5 video</a>
     </p>
   </video>-->
 
