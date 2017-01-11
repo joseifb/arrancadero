@@ -53,8 +53,6 @@
 
   <a id="video" href="video/intro.mp4"  class="lightbox-video mfp-iframe"></a>
 
-  5inf0n14--
-
 
 
 
