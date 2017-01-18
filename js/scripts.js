@@ -4,7 +4,9 @@ var ban=0;
   "use strict";
 
   $(window).load(function() {
+   // $( "video" ).removeAttr("controls");
     $( "#video" ).click();
+   
     //$('#myModal').modal('show');
     // setTimeout() function will be fired after page is loaded
     // it will wait for 5 sec. and then will fire
@@ -16,7 +18,7 @@ var ban=0;
     }
     
 }
-setTimeout(explode, 5200);
+setTimeout(explode, 7200);
 $(".imagenFondo").css("background-image","url(img/web/entradas.png)");
 
 $('#modalmenu').on('shown.bs.modal', function (e) {

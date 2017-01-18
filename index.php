@@ -50,8 +50,8 @@
     </div>
   </div>
   <!--<video  id="vbackground" src="video/intro.mp4" autoplay>-->
-
-  <a id="video" href="video/intro.mp4"  class="lightbox-video mfp-iframe"></a>
+<!--<video src="video/intro.mp4" width="640" height="360" class="lightbox-video mfp-iframe" autoplay preload></video>-->
+  <a id="video" href="video/intro1.mp4"  class="lightbox-video mfp-iframe"></a>
 
 
 
@@ -126,7 +126,7 @@
                     <li class="dropdown active">
                       <a href="menu.html"><h4>Menú</h4></a><i class="fa fa-angle-down dropdown-toggle"></i>
                     </li>  
-                    <li class="dropdown active">
+                    <li id="gal" class="dropdown active">
                       <a href="#all"><h4>Galería</h4></a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown"></i>
                     </li> 
                     <li class="dropdown active">
@@ -578,7 +578,7 @@
 
                 <div class="footer-socials">
                   <div class="social-icons dark rounded text-center">
-                    <a href="https://www.facebook.com/ElArrancadero/"><i class="fa fa-facebook"></i></a>                  
+                    <a target="_blank" href="https://www.facebook.com/ElArrancadero/"><i class="fa fa-facebook"></i></a>                  
                   </div>
                 </div>
 

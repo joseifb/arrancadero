@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
   $(".close").click(function(){
     $(".modalContenedor").fadeOut();
   });
@@ -12,6 +14,12 @@ $(document).ready(function(){
       $("#modDesayunos").fadeIn();
   });
   $("#selGaleria").click(function(){
+      $("#modGaleria").fadeIn();
+  });
+   $("#gal").click(function(){
+      $("#modGaleria").fadeIn();
+  });
+   $("#galmenu").click(function(){
       $("#modGaleria").fadeIn();
   });
    $("#selBebidas").click(function(){
@@ -83,6 +91,7 @@ $(document).ready(function(){
 			$(".imagen1").show();
 		});
 	});
+
 });
 function sig(posicion,objeto){
   console.log("objeto "+objeto+" posicion "+posicion);
