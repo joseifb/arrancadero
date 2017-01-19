@@ -269,12 +269,12 @@
               </div> <!-- end col -->
 
               <ul class="nav-right menu-socials hidden-sm hidden-xs">
-                <li>
+                <!--<li>
                   <a href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
                   <a href="#"><i class="fa fa-google"></i></a>
-                </li>
+                </li>-->
                 <li>
                   <a href="#"><i class="fa fa-facebook"></i></a>
                 </li>                    
