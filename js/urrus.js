@@ -1,6 +1,5 @@
 $(document).ready(function(){
-
-
+    
   $(".close").click(function(){
     $(".modalContenedor").fadeOut();
   });
@@ -92,6 +91,9 @@ $(document).ready(function(){
 		});
 	});
 
+    var referrer = document.referrer;
+    console.log(""+referrer);
+  
 });
 function sig(posicion,objeto){
   console.log("objeto "+objeto+" posicion "+posicion);
@@ -140,4 +142,5 @@ function ant(posicion,objeto){
       $("#mod"+objeto2+" .modImagen").css("background-image","url(./img/"+objeto+"/"+posicion+".png)");
     }
   });
-  }
+}
+

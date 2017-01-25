@@ -887,3 +887,6 @@ function container_full_height_init(){
 // $(".corner").on('click',function (){
 //   $("#customizer").toggleClass("s-open");
 // });
+
+var referrer = document.referrer;
+console.log ("url:"+referrer);
