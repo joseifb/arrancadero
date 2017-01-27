@@ -51,7 +51,8 @@
   </div>
   <!--<video  id="vbackground" src="video/intro.mp4" autoplay>-->
 <!--<video src="video/intro.mp4" width="640" height="360" class="lightbox-video mfp-iframe" autoplay preload></video>-->
-  <a id="video" href="video/intro1.mp4"  class="lightbox-video mfp-iframe"></a>
+ 
+ <a id="video" controls="false" href="video/intro1.mp4"  class="lightbox-video mfp-iframe" controls="false" autoplay preload></a>
 
 
 
@@ -437,12 +438,13 @@
                 <div class="work-item hover-2">
                   <div class="work-container">
                     <div class="work-img">
-                      <a href="http://vimeo.com/195685836" class="lightbox-video mfp-iframe">
+                      <a href="video/lechon.mp4" class="lightbox-video mfp-iframe" controls="false" preload>
                         <img src="img/web/img_cabrito.png" alt="Cabrito">
                         <div class="work-overlay">
                           <div class="work-description">
                             <!--<h3>Vimeo Video</h3>
-                            <span>Photography</span>-->
+                            <span>Photography</span>                            
+                            http://vimeo.com/195685836-->
                           </div>
                         </div>
                       </a>              

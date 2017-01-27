@@ -653,8 +653,8 @@ $('#modalmenu').on('shown.bs.modal', function (e) {
   });
 
 
-  $(".lightbox-video").magnificPopup({
-    closeBtnInside: false
+ $(".lightbox-video").magnificPopup({
+  closeBtnInside: true
   });
 
 
